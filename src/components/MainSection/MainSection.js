@@ -11,8 +11,8 @@ export default function MainSection() {
             <main>
                 <div className="bg-image">
                     <img src={mon1}/>
-                    <img src={mon2}/>
                     <img src={mon3}/>
+                    <img src={mon2}/>
                     <img src={mon4}/>           
                 </div>
                 <div className="container">
