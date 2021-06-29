@@ -1,0 +1,41 @@
+.bg-image{
+    display: flex;
+    height: 95vh;
+    overflow: hidden;
+}
+main{
+    position: relative;
+}
+.bg-image img{
+    object-fit: cover;
+    transform: skewX(-12deg);
+}
+.bg-image>:first-child{
+    width: 69vw;
+    transform-origin: top;
+}
+.bg-image img:not(:first-child){
+    width: 14vw;
+    transform-origin: top;
+}
+
+
+.wrapper{
+    position: absolute;
+    top: 35%;
+    max-width: 30vw;
+    margin-left: 25px;
+}
+.wrapper h1{
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+.wrapper button{
+    background: transparent;
+    border: none;
+}
+.wrapper a{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Exo', sans-serif;
+}
