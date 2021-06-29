@@ -13,7 +13,7 @@ export default function header() {
                         <div className="header_navigation">
                             <ul>
                                 <li>
-                                    <a href="#">Tickets</a>
+                                    <a href="#">Ticket</a>
                                 </li>
                                 <li>
                                     <a href="#">Places to go</a>
