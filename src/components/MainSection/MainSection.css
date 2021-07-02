@@ -1,6 +1,6 @@
 .bg-image{
     display: flex;
-    height: 95vh;
+    height: 100vh;
     overflow: hidden;
 }
 main{
@@ -8,7 +8,8 @@ main{
 }
 .bg-image img{
     object-fit: cover;
-    transform: skewX(-12deg);
+    transform: skewX(-13deg);
+    filter: brightness(85%);
 }
 .bg-image>:first-child{
     width: 69vw;
@@ -18,7 +19,10 @@ main{
     width: 14vw;
     transform-origin: top;
 }
-
+.bg-image img:not(:first-child):hover{
+    filter: brightness(100%);
+    transition: all 200ms ease-in-out;
+}
 
 .wrapper{
     position: absolute;
@@ -32,10 +36,14 @@ main{
 }
 .wrapper button{
     background: transparent;
-    border: none;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    margin-top: 15px;
 }
 .wrapper a{
     text-decoration: none;
     color:#fff;
     font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
 }

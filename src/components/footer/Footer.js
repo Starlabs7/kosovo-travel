@@ -8,20 +8,18 @@ export default function footer() {
     return (
         <>
             <footer>
-            <div className="footer">
-                <div className="inner-footer">
-                    <div className="logo_contanier">
-                    <img src={logo2} />
+                <div className="footer">
+                    <div className="inner-footer">
+                        <div className="logo_contanier">
+                            <img src={logo2} />
+                        </div>
+                        <div className="footer-third">
+                            <h1>Need Help?</h1>
+                            <a href="#"> Terms and Conditions</a>
+                            <a href="#"> Privacy Policy</a>
+                            <a href="#"> Contact Us</a>
+                        </div>  
                     </div>
-                    <div className="footer-third">
-                        <h1>Need Help?</h1>
-                        <a href="#"> Terms and Conditions</a>
-                        <a href="#"> Privacy Policy</a>
-                        <a href="#"> Contact Us</a>
-                    </div>
-                   
-                    
-                </div>
                 </div>
             </footer>           
         </>
