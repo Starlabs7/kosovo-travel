@@ -3,11 +3,9 @@
     padding:0;
     list-style: none;
     text-decoration: none;
-    color: white;
   
 }
 .footer{
-    width: 210vh;
     display: block;
     overflow: hidden;
     padding: 70px 0;
@@ -31,7 +29,7 @@
 }
 .inner-footer .footer-third{
     width: cal(21.6666666667% -20px);
-    margin-right: 50px;
+    margin-right: 10px;
     float:left;
     height: 100%;
 }
@@ -52,13 +50,4 @@
     padding-right: 20px;
     padding-left: 25px;
     padding-bottom: 25px;
-}
-@media only screen and (max-width: 600px) {
-    .search {
-        padding: 20px 15%;
-    }
-
-    .city {
-        padding: 40px 20%;
-    }
 }

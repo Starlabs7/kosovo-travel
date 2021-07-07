@@ -8,12 +8,12 @@ export default function header() {
         <>
             <header>
                 <div className="container">
-                    <div className="header-wrapper">
+                     <div className="header-wrapper">
                         <a href="#"><img src={logo} /></a>
                         <div className="header_navigation">
                             <ul>
                                 <li>
-                                    <a href="#">Ticket</a>
+                                    <a href="#">Tickets</a>
                                 </li>
                                 <li>
                                     <a href="#">Places to go</a>
@@ -21,12 +21,12 @@ export default function header() {
                                 <li>
                                     <a href="#">Things to do</a>
                                 </li>
+                                
                                 <li>
                                     <a href="#">Plan your trip</a>
                                 </li>
-                            </ul>     
-                        </div>
-                        <div className="search-bar">
+                            </ul> </div>
+                            <div className="search-bar">
                                 <input 
                                 type="text"
                                 className="search-bar-input" 
@@ -35,7 +35,8 @@ export default function header() {
                                 
                                 <button className="search-bar-button"><BsSearch /></button>
                         </div>
-                    </div>
+                       
+                     </div>
                 </div>
             </header>           
         </>
