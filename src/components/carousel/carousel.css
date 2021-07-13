@@ -1,9 +1,17 @@
 
 .carousel-wrapper{
-    margin-top: 10vh;
+    margin-top: 12vh;
     margin-bottom: 10vh;
     max-width: 100%;
     justify-content: center;
+}
+.carousel-wrapper  h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 3vh;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: rgb(48, 45, 45);
 }
 .card-wrapper
 {
@@ -20,10 +28,6 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
-/* .slick-list div{
-    margin-right: 20px;
-    margin-left: 20px;
-} */
 .carousel-card:hover{
     background-color: #f5f5f5;
 }

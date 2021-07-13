@@ -17,10 +17,10 @@ function Carousel() {
         cssEase: "linear",
         centerMode: true,
         touchThreshold: 15,
-
     }
     return (
         <div className="carousel-wrapper">
+            <h1>Destinations</h1>
             <Slider {...settings}>
                 <div className="card-wrapper">
                     <div className="carousel-card">

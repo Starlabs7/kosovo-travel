@@ -1,0 +1,37 @@
+.section-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    
+}
+.image{
+    padding-right:8vw;
+    position: relative;
+}
+.image img{
+    width: 24vw;
+    height: auto;
+    object-fit: cover;
+}
+.image::before{
+    content: "";
+    top:15%;
+    left: 10%;
+    width: 80%;
+    height:95%;
+    background:#67aac0;
+    position: absolute;
+    opacity: 0.4;
+}
+.information{
+    max-width: 35vw;
+    line-height: 1.6;
+}
+.information h3 {
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-bottom: 35px;
+    color: #67aac0;
+}

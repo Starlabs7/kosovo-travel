@@ -1,23 +1,24 @@
 import logo from './logo.svg'
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Header from './components/header/Header'
-import MainSection from './components/MainSection/MainSection'
 import Footer from './components/footer/Footer'
-import Carousel from './components/carousel/Carousel'
-import GoogleMapsAPI from './components/MapSection/GoogleMapsAPI'
-
-
+import Home from './components/Home'
+import Tickets from './components/Tickets'
 
 
 function App() {
   return (
-    <div className="App">
-       <Header />
-       <MainSection />
-       <Carousel /> 
-       <GoogleMapsAPI />
-       <Footer />
-    
-    </div>
+    <Router>
+        <div className="App">
+          <Header />
+          <Switch>
+            <Route path='/' exact component={Home}/>
+            <Route path='/tickets' component={Tickets}/>
+          </Switch>
+          <Footer />
+        </div>
+    </Router>
+
   );
 }
 
