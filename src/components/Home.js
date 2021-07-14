@@ -3,6 +3,7 @@ import MainSection from './MainSection/MainSection'
 import Carousel from './carousel/Carousel'
 import GoogleMapsAPI from './MapSection/GoogleMapsAPI'
 import VisitKosovo from './whyKosovo/visitKosovo'
+import WeatherCard from './weather/WeatherCard'
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <VisitKosovo />
             <Carousel /> 
             <GoogleMapsAPI />
+            <WeatherCard />
         </>
     )
 }

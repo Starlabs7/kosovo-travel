@@ -1,3 +1,4 @@
+
 import logo from './logo.svg'
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Header from './components/header/Header'
@@ -8,6 +9,7 @@ import Tickets from './components/Tickets'
 
 function App() {
   return (
+
     <Router>
         <div className="App">
           <Header />
@@ -18,7 +20,6 @@ function App() {
           <Footer />
         </div>
     </Router>
-
   );
 }
 

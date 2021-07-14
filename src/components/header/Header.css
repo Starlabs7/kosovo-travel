@@ -10,7 +10,7 @@ body{
     margin: 0 auto;
     max-width: 1280px;
 }
-header{
+header {
     background-color: transparent;
     font-family: 'Exo', sans-serif;
     position: absolute;
@@ -40,6 +40,7 @@ header{
     align-items: center;
     margin-left: 8vw;
 }
+
 .header_navigation ul{
     display: flex;
     padding-top: 15px;
@@ -71,26 +72,24 @@ header{
     display: block;
     transition: all ease-in-out 300ms;
 }
-
-
 .search-bar-button svg{
     color: white;
     height: 20px;
-    width: 20px;
+    width: 20px;  
 }
-.search-bar{
+.search-bar {
     display: flex;
     background-color: transparent;
     border: 2px solid #fff;
-    border-radius:50%;
+    border-radius: 50%;
     align-items: center;
     margin-left: 30px;
-    width: 42px;
-    padding: 3px;
+    width: 41px;
+    padding: 2px;
     position: relative;
     overflow: hidden;
     transition: border-radius 2s ease-in;
-    transition: width  550ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: width 550ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 .search-bar-input{
     background-color: transparent;
@@ -107,7 +106,7 @@ header{
 .search-bar-input::placeholder{
     color: #fff;
 }
-.search-bar-button{
+.search-bar-button {
     background-color: transparent;
     border-radius: 50%;
     border: none;
@@ -160,4 +159,5 @@ header{
 .btn1:hover::before{
     transform:scaleX(1)
 }
+
 
