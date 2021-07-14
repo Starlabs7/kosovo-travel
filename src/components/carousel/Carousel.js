@@ -1,8 +1,7 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img3 from "../../Images/3.jpg"
 import "./carousel.css"
 
 
@@ -18,43 +17,32 @@ function Carousel() {
         centerMode: true,
         touchThreshold: 15,
     }
+
+    useEffect(()=> {
+        fetchItems();
+    }, []);
+
+    const [items, setItems] = useState([]);
+
+    const fetchItems = async () =>{
+        const data = await fetch('./data/data.json');
+        const items = await data.json();
+        setItems(items.carousel);
+    }
     return (
         <div className="carousel-wrapper">
             <h1>Destinations</h1>
             <Slider {...settings}>
-                <div className="card-wrapper">
-                    <div className="carousel-card">
-                        <img src={img3} />
-                        <h3><a href="#">The Accursed Mountains</a></h3>
-                        <p>The Accursed Mountains make for some of Kosovo’s most dramatic landscapes. The ascent is punctuated by jagged peaks and steep valleys. </p>
-                        <button className="btn2"><a>Learn more!</a></button>
+                {items.map(item => (
+                    <div className="card-wrapper" key={item.id}>
+                        <div className="carousel-card">
+                            <img src={item.image} />
+                            <h3><a href="#">{item.title}</a></h3>
+                            <p>{item.information}</p>
+                            <button className="btn2"><a>Learn more!</a></button>
+                        </div>
                     </div>
-                </div>
-                <div className="card-wrapper">
-                    <div className="carousel-card">
-                        <img src={img3} />
-                        <h3><a href="#">The Accursed Mountains</a></h3>
-                        <p>The Accursed Mountains make for some of Kosovo’s most dramatic landscapes. The ascent is punctuated by jagged peaks and steep valleys. </p>
-                        <button className="btn2"><a>Learn more!</a></button>
-                    </div>
-                </div> 
-                <div className="card-wrapper">
-                   <div className="carousel-card">
-                        <img src={img3} />
-                        <h3><a href="#">The Accursed Mountains</a></h3>
-                        <p>The Accursed Mountains make for some of Kosovo’s most dramatic landscapes. The ascent is punctuated by jagged peaks and steep valleys. </p>
-                        <button className="btn2"><a>Learn more!</a></button>
-                    </div> 
-                </div>
-                <div className="card-wrapper">
-                    <div className="carousel-card">
-                        <img src={img3} />
-                        <h3><a href="#">The Accursed Mountains</a></h3>
-                        <p>The Accursed Mountains make for some of Kosovo’s most dramatic landscapes. The ascent is punctuated by jagged peaks and steep valleys. </p>
-                        <button className="btn2"><a>Learn more!</a></button>
-                    </div>
-                </div>
-                    
+                ))}
             </Slider>
         </div>
     )

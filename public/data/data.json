@@ -1,0 +1,46 @@
+{
+    "carousel":[
+        {
+            "id": "1",
+            "image":"../../Images/3.jpg",
+            "title": "The Accursed Mountains",
+            "information": "The Accursed Mountains make for some of Kosovo’s most dramatic landscapes. The ascent is punctuated by jagged peaks and steep valleys. ",
+            "secondary-image":""
+        },
+        {
+            "id": "2",
+            "image":"",
+            "title": "",
+            "information": "",
+            "secondary-image":""
+        },
+        {
+            "id": "3",
+            "image":"",
+            "title": "",
+            "information": "",
+            "secondary-image":""
+        },
+        {
+            "id": "4",
+            "image":"",
+            "title": "",
+            "information": "",
+            "secondary-image":""
+        },
+        {
+            "id": "5",
+            "image":"",
+            "title": "",
+            "information": "",
+            "secondary-image":""
+        },
+        {
+            "id": "6",
+            "image":"",
+            "title": "",
+            "information": "",
+            "secondary-image":""
+        }
+    ]
+}
