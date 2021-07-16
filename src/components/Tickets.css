@@ -1,0 +1,126 @@
+.bg-image-3{
+    position: relative;
+}
+.bg-image-3 img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    margin-bottom: 20vh;
+}
+.tickets{
+    position: absolute;
+    top:35%;
+    left: 10%;
+}
+.quote-section{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    max-width: 40vw;
+    margin-bottom: 15vh;
+}
+.quote-section span{
+    font-weight: 800;
+}
+.quote-section h1{
+    font-weight: 600;
+}
+.tickets-section{
+    margin-top: 5vh;
+    width: 82vw;
+    height: 30vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.options{
+    margin-bottom: 10px;
+}
+/* .ticket-information{
+    width: 60%;
+}
+.date{
+    width: 40%;
+} */
+.ticket-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ticket-information p{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+}
+select#passangers , select#travel-class {
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    outline: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.from, .to{
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 10px;
+}
+.destination input{
+    border: none;
+    font-size: 22px;
+    width: 19vw;
+    padding: 4px 0px;
+    outline: none;
+    background-color: transparent;
+}
+.destination{
+    display: flex;
+    align-items: center;
+}
+.date{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius:  8px;
+    padding: 15px;
+    margin-left: 10px;
+    width: 80%;
+}
+.departure, .return{
+    margin-right: 15px;
+}
+.date input[type="date"] {
+    border: none;
+    outline: none;
+    font-size: 21px;
+    padding: 3px 0px;
+    width: 90%;
+    background-color: transparent;
+}
+.search-button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    width: 14vw;
+    height: 8vh;
+    border-radius: 10px;
+    top:90%;
+    left: 80%;
+}
+.search-button button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.search-button svg{
+    color: white;
+}

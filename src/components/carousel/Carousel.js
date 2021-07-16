@@ -2,7 +2,8 @@ import React, {useState, useEffect} from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./carousel.css"
+import "./carousel.css";
+import "react-router-dom";
 
 
 function Carousel() {
@@ -29,6 +30,7 @@ function Carousel() {
         const items = await data.json();
         setItems(items.carousel);
     }
+
     return (
         <div className="carousel-wrapper">
             <h1>Destinations</h1>

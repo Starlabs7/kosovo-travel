@@ -11,7 +11,7 @@ export default function header() {
                 <div className="container">
                     <div className="navigation">
                         <div className="header-wrapper">
-                            <a href="#"><img src={logo} /></a>
+                            <Link to='/'><img src={logo} /></Link>
                             <div className="header_navigation">
                                 <ul>
                                     <Link className="routerlink" to='/tickets'>
@@ -34,10 +34,9 @@ export default function header() {
                                     className="search-bar-input" 
                                     placeholder="Find the perfect place to go"
                                     aria-label="search" />
-                                    
+          
                                     <button className="search-bar-button"><BsSearch /></button>
-                            </div>
-                            
+                            </div>    
                         </div>
                         
                         <button className="btn1">Sign in</button>
