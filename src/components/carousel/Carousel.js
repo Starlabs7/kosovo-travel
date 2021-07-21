@@ -26,9 +26,13 @@ function Carousel() {
     const [items, setItems] = useState([]);
 
     const fetchItems = async () =>{
-        const data = await fetch('./data/data.json');
-        const items = await data.json();
-        setItems(items.carousel);
+        try{
+            const data = await fetch('./data/data.json');
+            const items = await data.json();
+            setItems(items.carousel);
+        }catch(error){
+            console.error(error);
+        }    
     }
 
     return (
@@ -38,7 +42,7 @@ function Carousel() {
                 {items.map(item => (
                     <div className="card-wrapper" key={item.id}>
                         <div className="carousel-card">
-                            <img src={item.image} />
+                            <img src={item.image} alt="Popular Destination"/>
                             <h3><a href="#">{item.title}</a></h3>
                             <p>{item.information}</p>
                             <button className="btn2"><a>Learn more!</a></button>

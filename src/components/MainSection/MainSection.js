@@ -11,10 +11,10 @@ export default function MainSection() {
         <>
             <main>
                 <div className="bg-image">
-                    <img src={mon1}/>
-                    <img src={mon3}/>
-                    <img src={mon2}/>
-                    <img src={mon4}/>           
+                    <img src={mon1} alt="Brezovica"/>
+                    <img src={mon3} alt="Mountain"/>
+                    <img src={mon2} alt="Old man riding a bike"/>
+                    <img src={mon4} aly="Old Hotel"/>           
                 </div>
                 <div className="container">
                     <div className="wrapper">

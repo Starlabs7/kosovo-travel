@@ -107,7 +107,8 @@ select#passangers , select#travel-class {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    cursor: pointer;
+    background-color: #101010;
     padding: 15px;
     width: 14vw;
     height: 8vh;
@@ -115,6 +116,7 @@ select#passangers , select#travel-class {
     top:90%;
     left: 80%;
 }
+
 .search-button button{
     background-color: transparent;
     color: white;

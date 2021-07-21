@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "react-router-dom"
 import "./Tickets.css"
 import bg from "../Images/airport.jpg"
@@ -9,7 +9,7 @@ export default function Tickets() {
     return (
         <>
           <div className="bg-image-3">
-              <img src={bg}  />
+              <img src={bg}  alt="Man at airport"/>
               <div className="container">
                   <div class="tickets">
                         <div className="quote-section">
@@ -17,7 +17,7 @@ export default function Tickets() {
                         </div>
                         <div className="tickets-section">
                           <div className="options">
-                              <label for="passangers"></label>
+                              {/* <label htmlFor="passangers"></label> */}
                               <select id="passangers">
                                 <option value="1">1 Passanger</option>
                                 <option value="1">2 Passangers</option>
@@ -27,7 +27,7 @@ export default function Tickets() {
                                 <option value="1">6 Passangers</option>
                               </select>
 
-                              <label for="travel-class"></label>
+                              <label htmlFor="travel-class"></label>
                               <select id="travel-class">
                                 <option value="Business Class">Business Class</option>
                                 <option value="Fisrt Class">First Class</option>
@@ -39,12 +39,12 @@ export default function Tickets() {
                               <div className="destination">
                                   <div className="from">
                                       <p>FROM</p>
-                                      <input value="Germany"></input>
+                                      <input defaultValue="Germany"></input>
                                       <p>Prishtina</p>
                                   </div>
                                   <div className="to">
                                       <p>TO</p>
-                                      <input value="Kosovo"></input>
+                                      <input defaultValue="Kosovo" readOnly></input>
                                       <p>Prishtina</p>
                                   </div>
                               </div>
@@ -61,12 +61,13 @@ export default function Tickets() {
                                     </div>
                               </div>
                           </div>
-                          <div className="search-button">
+                          <div className="search-button" role="button">
                               <button class="btn4">Search Flights</button>
                               <FaArrowRight/>
                           </div>
                         </div>
                   </div>
+                  
               </div>
           </div>
         </>

@@ -11,7 +11,7 @@ export default function Home() {
             <MainSection />
             <VisitKosovo />
             <Carousel /> 
-            <GoogleMapsAPI />
+            <GoogleMapsAPI /> 
             <WeatherCard />
         </>
     )
