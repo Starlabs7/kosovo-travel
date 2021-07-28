@@ -4,6 +4,7 @@ import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Home from './components/Home'
 import Tickets from './components/Tickets'
+import Posts from './components/Posts'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Switch>
             <Route path='/' exact component={Home}/>
             <Route path='/tickets' component={Tickets}/>
+            <Route path='/carousel/:id' component={Posts}/>
           </Switch>
           <Footer />
         </div>

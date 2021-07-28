@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./carousel.css";
-import "react-router-dom";
+import {Link} from "react-router-dom";
 
 
 function Carousel() {
@@ -21,6 +21,7 @@ function Carousel() {
 
     useEffect(()=> {
         fetchItems();
+        console.log(items);
     }, []);
 
     const [items, setItems] = useState([]);
@@ -34,7 +35,6 @@ function Carousel() {
             console.error(error);
         }    
     }
-
     return (
         <div className="carousel-wrapper">
             <h1>Destinations</h1>
@@ -42,10 +42,10 @@ function Carousel() {
                 {items.map(item => (
                     <div className="card-wrapper" key={item.id}>
                         <div className="carousel-card">
-                            <img src={item.image} alt="Popular Destination"/>
-                            <h3><a href="#">{item.title}</a></h3>
-                            <p>{item.information}</p>
-                            <button className="btn2"><a>Learn more!</a></button>
+                            <img src={' ../../Images/${items.image}'} alt="Popular Destination"/>
+                            <h3><Link to={"/carousel/"+ item.id} className="carousel-link">{item.title}</Link></h3>
+                            <p></p>
+                            <button className="btn2"><Link to={'/carousel/${item.id}'} className="carousel-button">Learn more!</Link></button>
                         </div>
                     </div>
                 ))}

@@ -17,7 +17,6 @@ export default function Tickets() {
                         </div>
                         <div className="tickets-section">
                           <div className="options">
-                              {/* <label htmlFor="passangers"></label> */}
                               <select id="passangers">
                                 <option value="1">1 Passanger</option>
                                 <option value="1">2 Passangers</option>
@@ -27,7 +26,6 @@ export default function Tickets() {
                                 <option value="1">6 Passangers</option>
                               </select>
 
-                              <label htmlFor="travel-class"></label>
                               <select id="travel-class">
                                 <option value="Business Class">Business Class</option>
                                 <option value="Fisrt Class">First Class</option>
