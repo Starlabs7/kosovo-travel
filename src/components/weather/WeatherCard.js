@@ -28,32 +28,35 @@ export default function WeatherCard() {
   }
 
   return(
-    <div className="">
+    <div className="component">
       <div className="weather-card-wrapper">
         <div className="weather-card">
-              <div className="temp">
-                <h3>Current temp:</h3>
-                <h1>{items.temp_c} °C</h1>
+              <div className="section temp">
+                <h3>Current temp</h3>
+                <p>{items.temp_c} °C</p>
               </div>
-              <div className="condition">
+              <div className="section condition">
                 <h3>Condition</h3>
-                <img src={items.condition.icon} alt={items.condition.text} />
-                <h4>{items.condition.text}</h4> 
+                <div class="condition-details">
+                  <img src={items.condition?.icon} alt={items.condition?.text} />
+                  <h4>{items.condition?.text}</h4> 
+                </div>   
               </div>
-              <div className="wind-speed">
-                  <h3>Wind speed:</h3>
-                  <h1>{items.wind_kph} km/h</h1>
+              <div className="section wind-speed">
+                  <h3>Wind speed</h3>
+                  <p>{items.wind_kph} km/h</p>
               </div>
-              <div className="forecast">
-              
-                  Forecast
-             
+              <div className="section forecast">
+                  <a target="_blank" style={{color: '#fff'}} href="https://www.accuweather.com/en/xk/prishtina/298740/weather-forecast/298740">Forecast</a>
               </div>
         </div>
       </div>
 
       <div className="quote">
-
+            <div>
+                <h2>"Nobody can discover the world for somebody else. Only when we discover it for ourselves does it become common ground and a common bond and we cease to be alone."</h2>
+                <p>– Wendell Berry, A Place on Earth</p> 
+            </div>
       </div>
     </div>
   );
