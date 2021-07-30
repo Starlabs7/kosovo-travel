@@ -15,7 +15,7 @@ export default function PlanYourTrip() {
                         <div className="quote-section">
                             
                         </div>
-                        <div className="tickets-section">
+                        <div className="tickets-section-2">
                           <div className="options">
                               <select id="Travelers">
                                 <option value="1">1 Traveler</option>

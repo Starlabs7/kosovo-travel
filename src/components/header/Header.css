@@ -3,6 +3,9 @@
 *::before {
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #f1faf9;
 }
@@ -40,7 +43,6 @@ header {
   align-items: center;
   margin-left: 8vw;
 }
-
 .header_navigation ul {
   display: flex;
   padding-top: 15px;
@@ -126,7 +128,6 @@ header {
   border: 2px solid #fff;
   border-radius: 35px;
 }
-
 .btn1 {
   background: none;
   border: 3px solid #fff;
@@ -159,7 +160,6 @@ header {
 .btn1:hover::before {
   transform: scaleX(1);
 }
-
 .popup-form {
   position: fixed;
   z-index: 10;

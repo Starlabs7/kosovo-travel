@@ -2,45 +2,66 @@
     "carousel":[
         {
             "id": "1",
-            "image": "3.jpg",
+            "image": "https://www.calvertjournal.com/images/uploads/features/2020/Feb_2020/Kosovo_Road_Trip/17_Accursed_mountians_1.jpg",
             "title": "The Accursed Mountains",
+            "description":"The Accursed Mountains make for some of Kosovo’s most dramatic landscapes. There are plenty of activities on offer here; multiple hiking routes weave in and out from between the peaks, ski villages come alive in winter, and local families are always on hand to offer homemade flija for passersby.",
             "information": "The Accursed Mountains make for some of Kosovo’s most dramatic landscapes. The ascent is punctuated by jagged peaks and steep valleys, folded among more gentle glimpses untouched pastoral life. There are plenty of activities on offer here; multiple hiking routes weave in and out from between the peaks, ski villages come alive in winter, and local families are always on hand to offer homemade flija — savoury layered pancakes — for passersby.",
-            "secondary-image":"../../Images/2.jpg"
+            "secondary-image":"../../Images/2.jpg",
+            "second-part":""
         },
         {
             "id": "2",
-            "image":"",
+            "image":"https://www.calvertjournal.com/images/uploads/features/2020/Feb_2020/Kosovo_Road_Trip/DSC_4620.jpg",
             "title": "The Sharr Mountains",
+            "description":"The Sharr Mountains offer up scenic views all year round. It is at its best in the spring, when the sun lies across blankets of blooming trees, the canopies covering the cascading rock formations you’ll see throughout the drive. The autumn is also magical.",
             "information": "The Sharr Mountains, which stretch across Kosovo, Albania and North Macedonia, offer up scenic views all year round. Kosovo’s portion, which is protected as part of a national park, is at its best in the spring, when the sun lies across blankets of blooming trees, the canopies covering the cascading rock formations you’ll see throughout the drive. The autumn is also magical, as bursts of orange fir, juniper, and chestnut trees fight through the mist to create a mystical landscape all of its own.Stops of interest on the route include Brezovice, Kosovo’s leading ski resort: if you want to enjoy a quick coffee and a breath-taking view, then just take a quick detour down the R210. Newly built cabin retreats are also available for an overnight stop.The autumn is also magical, as bursts of orange fir, juniper and chestnut trees fight through the mist to create a mystical landscape all of its own Fans of socialist-era architecture, meanwhile, may prefer to check out a different kind of view by turning into Brezovice, based in the sleepy Serbian enclave of Strpce, and heading to the Hotel Narcis. The grand communist-era hotel was abandoned following the Kosovo War, giving this small town an eerie feel. Visitors are, however, still able to access the space to purview its incredible interiors.Further down the R115, it’s also worth taking a short stop in Prevalla, a mountain village where locals sell delicacies such as home-grown honey, syrups, and Kosovar specialty rasoj — fermented red cabbage juice with supposed health benefits. After this spot, the descent to Prizren begins: but before heading to Kosovo’s culture capital, take a rest at Hotel Sharri. Not only does the restaurant offer up spectacular views of the landscape, but it also serves traditional Kosovo-Albanian dishes and drinks. You might also be able to spot a built replica of the White House, transplanted from Washington D.C. to serve as a restaurant and wedding venue.",
-            "secondary-image":""
+            "secondary-image":"",
+            "second-part":""
         },
         {
             "id": "3",
-            "image":"",
+            "image":"https://www.calvertjournal.com/images/uploads/features/2020/Feb_2020/Kosovo_Road_Trip/Pristina_to_Prizren.jpg",
+            "description":"Prizren is a Kosovar jewel with a wealth of cultural sites, inherited from the string of empires it has throughout its history.Must-see sites in Prizren include the 11th century Prizren Fortress, which stands at the top of a hill overlooking the city and offers spectacular views.",
             "title": "Prizren",
             "information": "As a major crossroad for the Balkan peninsula, Prizren is a Kosovar jewel with a wealth of cultural sites, inherited from the string of empires it has throughout its history. During the summer the city comes alive for the international documentary and short film festival Dokufest, and hosts a string of screenings around the city, both for private and public consumption. Must-see sites in Prizren include the 11th century Prizren Fortress, which stands at the top of a hill overlooking the city and offers spectacular views, and the Ottoman-influenced Sinan Pasha Mosque, which sits on the banks of the city’s Lumbhardi River. Beside Sinan Pasha, Mimar Sinani Street has a number of traditional Turkish tearooms — now a rare sight in Kosovo, even though the country once hosted them in abundance. Meanwhile, the popular Sheshi i Shadervanit has its own list of pubs, dessert bars and kebab shops. The bizarrely-named Te Kinezi, which translates to “at the Chinese”, is one of the best bars on the strip at the moment, a small establishment offering craft beers and rakija. In the summer, catch a showing at the outside cinema at Kino Lumbardhi, which also has a large indoor screen and an ever-changing multimedia exhibition space.",
-            "secondary-image":""
+            "secondary-image":"",
+            "second-part":""
         },
         {
             "id": "4",
-            "image":"",
+            "image":"https://media.4-paws.org/3/8/8/b/388b4b579a1346a8f9411aef2846636358064b62/VIER%20PFOTEN_2019-02-03_012-2896x1931-770x513.jpg",
+            "description":"The Bear Sanctuary Pristina is a national park in Kosovo, close to Pristina. When it became illegal to keep bears privately, there was a need for a national park as a new home for  bears rescued from captivity. There, you  have a chance to witness these creatures other than seeing them on TV.",
             "title": "Bear Sanctuary",
             "information": "The Bear Sanctuary Pristina is a national park in Kosovo in close proximity to the city of Pristina.For many years, there was no law against keeping brown bears in Kosovo. All privately kept brown bears lived in small cages at restaurants. They were born mostly in the forests of Kosovo or Albania and snatched from their mothers by animal dealers. As restaurant bears they were supposed to attract customers, and thus profit, for their owners. In November 2010, when it became illegal to keep bears privately, there was a need for a national park as a new home for the restaurant bears rescued from captivity. In the Bear Sanctuary, you finally have a chance to witness these creatures other than seeing them on TV. This 16-hectare area serves as a lifetime habitat for bears previously kept as pets and restaurant bears. In fact, Kosovo banned the private ownership of bears since they were trapped in poor traps and used as restaurant attractions. As of now, there are 20 bears and counting in this sanctuary. The Bear Sanctuary Pristina was founded in 2013 by Four Paws Austria in collaboration with KFOR, the City of Pristina, the Kosovar Ministry of Environment and the law firm Franke & Partner. ",
-            "secondary-image":""
+            "secondary-image":"",
+            "second-part":""
         },
         {
             "id": "5",
-            "image":"",
+            "image":"https://www.calvertjournal.com/images/uploads/features/2020/Feb_2020/Kosovo_Road_Trip/Kosovo_Mountains.jpg",
+            "description":"Rugova Canyon is a river canyon in the western part of Kosovo near Peja, in the proximity of Bjeshkët e Namuna (Cursed Mountains), close to the border with Montenegro.Rugova canyon is considered to be one of Europe's longest and deepest canyons.",
             "title": "Rugova Canyon",
             "information": "Rugova Canyon is a river canyon in the western part of Kosovo near Peja, in the proximity of Bjeshkët e Namuna (Cursed Mountains), close to the border with Montenegro. With a length of 25 km (16 mi) and a depth up to 1,000 meters, Rugova canyon is considered to be one of Europe's longest and deepest canyons. It was created by the water erosion and the removal of the glacier of Peja. Rugova is a haven for snow and mountain lovers. This breathtaking valley is filled with mountain villages, peaks, and canyons. Rugova Canyon offers great opportunities for hikers, rock-climbers and cave explorers. In this canyon recently was built “Via Ferrata” or the “Iron Trail”, the first and the only in Balkans, which enables climbing rocks for each one of the curious passersby. Rock faces created by the nature gives undesirable beauty to this mountain feeling not only from walking around but also for doing a rock climbing activity. For passions of climbing and to all adventure people who like to feel adrenaline in Rugova mountain now there are 8 rock climbing sectors with proxy. 40 bolted routs with different length and difficulty. The first routs starts only 3km far from the center of city of Peja in the entrance of the canyon. The rocky trail starts from the Queen’s Cave.",
-            "secondary-image":""
+            "secondary-image":"",
+            "second-part":""
         },
         {
             "id": "6",
-            "image":"",
+            "image":"https://outoftownblog.com/wp-content/uploads/2020/09/Mirusha-Waterfalls-in-Kosovo-by-Flutur-Gerbeshi-via-Wikipedia-CC-700x525.jpg",
+            "description":"Mirusha waterfalls is a waterfall series located in central Kosovo.Mirusha Waterfalls is a sight to behold for nature lovers. It is filled with 13 river lakes and 12 waterfalls, surrounded by a 10 km canyon. ",
             "title": "Mirusha Waterfalls",
             "information": "Mirusha waterfalls is a waterfall series located in central Kosovo.Mirusha Waterfalls is a sight to behold for nature lovers. It is filled with 13 river lakes and 12 waterfalls, surrounded by a 10 km canyon. In fact, the tallest waterfall in this area is 22 meters. You can also see caves and cliffs that complement the background of waterfalls. It is a very famous touristic attraction, and it is a perfect place for an outdoor day trip. There you can hike, climb and swim. Furthermore, you can enjoy the freshness of the waterfalls.",
-            "secondary-image":""
+            "secondary-image":"",
+            "second-part":""
+        },
+        {
+            "id":"7",
+            "image":"https://img.theculturetrip.com/768x/smart/wp-content/uploads/2018/03/1972452.jpg",
+            "description":"The Marble Cave  is located in the small village of Gadime, south of Pristina. This incredible cave was discovered in the 60s and is more than 20 million years old. The numerous stalactites and stalagmites are remarkably beautiful, and Marble Cave also has an underground lake.",
+            "title":"The Marble Cave",
+            "information": "The Marble Cave (Shpella e Gadimes) is located in the small village of Gadime, south of Pristina. This incredible cave was discovered in the 60s and is more than 20 million years old. The numerous stalactites and stalagmites are remarkably beautiful, and Marble Cave also has an underground lake.",
+            "secondary-image":"",
+            "second-part":""
         }
     ]
 }

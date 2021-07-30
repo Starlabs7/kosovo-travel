@@ -21,7 +21,6 @@ function Carousel() {
 
     useEffect(()=> {
         fetchItems();
-        console.log(items);
     }, []);
 
     const [items, setItems] = useState([]);
@@ -37,15 +36,15 @@ function Carousel() {
     }
     return (
         <div className="carousel-wrapper">
-            <h1>Destinations</h1>
+            <h1 className="title 2">Destinations</h1>
             <Slider {...settings}>
                 {items.map(item => (
-                    <div className="card-wrapper" key={item.id}>
+                    <div className="card-wrapper" >
                         <div className="carousel-card">
-                            <img src={' ../../Images/${items.image}'} alt="Popular Destination"/>
-                            <h3><Link to={"/carousel/"+ item.id} className="carousel-link">{item.title}</Link></h3>
-                            <p></p>
-                            <button className="btn2"><Link to={'/carousel/${item.id}'} className="carousel-button">Learn more!</Link></button>
+                            <img src={item.image} alt="Popular Destination"/>
+                            <h3 key={item.id} ><Link to={`/carousel/${item.id}`} className="carousel-link">{item.title}</Link></h3>
+                            <p>{item.description}</p>
+                            <button className="btn2"><Link to={`/carousel/${item.id}`} className="carousel-button">Learn more!</Link></button>
                         </div>
                     </div>
                 ))}

@@ -5,10 +5,18 @@
     max-width: 100%;
     justify-content: center;
 }
-.carousel-wrapper  h1{
+.title{
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 3vh;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: rgb(48, 45, 45);
+}
+.second{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0;
     text-align: center;
     font-family: 'Exo', sans-serif;
     color: rgb(48, 45, 45);
@@ -49,6 +57,7 @@
     margin-left: 15px;
     max-width: 90%;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 22vh;
 }
 .btn2{
     width: 100%;

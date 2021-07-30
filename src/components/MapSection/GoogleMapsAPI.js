@@ -14,14 +14,17 @@ import { withScriptjs , withGoogleMap , GoogleMap , Marker} from "react-google-m
   
   export default function GoogleMapsAPI(){
       return(
-         <div style={{marginTop:'5vw', marginBottom:'5vw'}}>
-             <MapWrapper
-                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGcQ6PgiTRhX36keoxS4brElVcuDUt2xU&v=3.exp&libraries=geometry,drawing,places"
-                loadingElement={<div style={{ height: `100%` }} />}
-                containerElement={<div style={{ height: `400px` }} />}
-                mapElement={<div style={{ height: `100%` }} />}
-             />
-         </div>       
+        <div>
+          <h1 className="second">Find Kosovo on the map</h1>
+          <div style={{marginTop:'1vw', marginBottom:'5vw'}}>
+              <MapWrapper
+                  googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGcQ6PgiTRhX36keoxS4brElVcuDUt2xU&v=3.exp&libraries=geometry,drawing,places"
+                  loadingElement={<div style={{ height: `100%` }} />}
+                  containerElement={<div style={{ height: `400px` }} />}
+                  mapElement={<div style={{ height: `100%` }} />}
+              />
+          </div>   
+        </div>    
       )
   }
   

@@ -4,11 +4,13 @@
     text-decoration: none;
     list-style-type: none;
 }
+footer{
+    /* box-shadow:inset 0px 7px 3px -3px rgba(50, 50, 50, 0.75); */
+}
 .top-footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10vh;
 }
 .footer-info{
     display: flex;
@@ -20,27 +22,66 @@
 }
 .site-links{
     margin-right: 10vw;
-    
 }
 .site-links h4, .contact h4{
     margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
     color: #000;
-
+    margin-top: 4vh;
 }
 .top-footer ul li{
     margin: 3px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 2px;
 }
-
+.contact svg{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.footer-link{
+    color: #000;
+}
 .bottom-footer{
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 .button-animation{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+.button-animation button{
+    padding:10px 10px;
+    background-color: rgba(28,65,94,0.65);
+    border: none;
+    border-radius: 50%; 
+    margin-bottom: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.button-animation svg{
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+.bottom-footer p{
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
+.bottom-footer h4{
+    margin-top: 5px;
+}
+.top-footer img{
+    height: 28vh;
+    width: 28vh;
+    margin-top: 8vh;
 }
