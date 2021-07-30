@@ -56,7 +56,7 @@ export default function header() {
                                     <Link className="routerlink">
                                     <li>Things to do</li>
                                     </Link>
-                                    <Link className="routerlink">
+                                    <Link className="routerlink" to='/plan-your-trip'>
                                         <li>Plan your trip</li>
                                     </Link>
                                 </ul>     
