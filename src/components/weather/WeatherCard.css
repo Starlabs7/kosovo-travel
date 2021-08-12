@@ -77,10 +77,10 @@
     width: 100%;
     height: 75vh;
     background-image: url(https://outoftownblog.com/wp-content/uploads/2020/09/Gazivoda-Lake-by-Bobik-via-Wikipedia-CC-700x467.jpg);
-    object-fit: cover;
     box-shadow: inset 0 0 0 1000px rgba(28,65,94,0.65);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-clip:;
 }
 .quote div{
     position: absolute;

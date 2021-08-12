@@ -10,8 +10,7 @@ export default function footer() {
 
     const goUp = () =>{
             document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-          
+            document.documentElement.scrollTop = 0; 
     }
     return (
         <>
@@ -43,7 +42,7 @@ export default function footer() {
                     </div>
                     <div className="bottom-footer">
                         <div className="button-animation">
-                            <button onClick={goUp}><FaArrowUp/></button>
+                            <button onClick={goUp} class="bounce-button"><FaArrowUp/></button>
                             <h4>Go up!</h4>
                         </div>
                         <p>&copy; July, 2021</p>

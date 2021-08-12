@@ -1,0 +1,138 @@
+.ticket-wrapper-2{
+    display: flex;
+    width: 97%;
+    margin-top: 2vh;
+}
+.ticket-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-origin, .ticket-destination{
+    display: flex;
+    flex-direction: column;
+}
+.ticket-destination{
+    text-align: end;
+}
+.ticket-details{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    position: relative;
+    padding: 17px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%);
+    transition: all 200ms linear;
+    cursor: pointer;
+}
+
+.flight-time{
+    display: flex;
+    width: 50%;
+    margin-right: 15px;
+}
+.flight-duration, .details{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flight-duration{
+    border-right: 1px solid grey;    
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.details svg{
+    width: 22px;
+    height: 22px;
+    transition: transform 500ms linear;
+}
+.details-active svg{
+    transform: rotate(180deg);
+}
+.ticket-route{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ticket-route div{
+    width: 180px;
+    height: 2px;
+    background-color: grey;
+    margin:10px;
+}
+.ticket-price{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.flight-time::after{
+    content: '';
+    position: absolute;
+    bottom: -23px;
+    left: 0;
+    width: 100%;
+    height: 4vh;
+    background-color: #fff;
+    z-index: 2;
+}
+.economy-class, .business-class{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius:5px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%);
+    transition: all 100ms linear;
+    cursor: pointer;
+}
+.economy-class:hover, .business-class:hover, .ticket-details:hover{
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+.economy-class{
+    margin-right: 4%;
+}
+.dropdown-menu{
+    background-color: #fff;
+    width: 97%;
+    margin-top: 2vh;
+    padding: 20px;
+    transform: scaleY(0);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%);
+    animation: dropdownMenu 5s linear forwards;
+    transform-origin: top;
+    display: flex;
+}
+.dropdown-menu div{
+    padding: 15px;
+    width: 25%;
+}
+.menu-flight div{
+    display: flex;
+}
+@keyframes dropdownMenu{
+    from{
+        transform: scaleY(0);
+    }
+    to{
+        transform: scaleY(1);
+    }
+}

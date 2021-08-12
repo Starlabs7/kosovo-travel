@@ -18,7 +18,6 @@ function App() {
             <Route path='/tickets' component={Tickets}/>
             <Route path='/carousel/:id' component={Posts}/>
             <Route path='/plan-your-trip' component={PlanYourTrip}/>
-            
           </Switch>
           <Footer />
         </div>

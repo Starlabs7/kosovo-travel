@@ -46,7 +46,7 @@ export default function WeatherCard() {
                   <h3>Wind speed</h3>
                   <p>{items.wind_kph} km/h</p>
               </div>
-              <div className="section forecast">
+              <div className="section forecast" role="button" onClick={() => window.open('https://www.accuweather.com/en/xk/prishtina/298740/weather-forecast/298740')}>
                   <a target="_blank" style={{color: '#fff'}} href="https://www.accuweather.com/en/xk/prishtina/298740/weather-forecast/298740">Forecast</a>
               </div>
         </div>

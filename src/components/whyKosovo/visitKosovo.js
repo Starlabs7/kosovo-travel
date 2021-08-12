@@ -3,6 +3,20 @@ import mountains from "../../Images/Kosovo_Mountains.jpg"
 import "./visitKosovo.css"
 
 export default function visitKosovo() {
+
+    // const observer = new IntersectionObserver(entries => {
+    //     entries.forEach(entry => {
+    //         const square = entry.target.querySelector('.information');
+    //         if (entry.isIntersecting) {
+    //           square.classList.add('activate-animation');
+    //           return; 
+    //         }
+    //         square.classList.remove('activate-animation');
+    //       });
+        
+    //   });
+    //   observer.observe(document.querySelector('.section-wrapper'));
+      
     return (
         <>
             <div className="container">

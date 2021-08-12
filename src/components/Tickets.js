@@ -1,11 +1,22 @@
-import React,{useEffect} from 'react'
+import React,{useState} from 'react'
 import "react-router-dom"
 import "./Tickets.css"
-import bg from "../Images/airport.jpg"
+import bg from "../Images/airport-min.jpg"
 import {FaArrowRight} from  "react-icons/fa";
-
+import Ticket from "./ticket/ticket"
 
 export default function Tickets() {
+    const [toggle, setToggle] = useState(false)
+    function searchFlights(){
+        const button = document.querySelector('.search-button')
+        if(toggle === false){
+            button.classList.add('search-button-active')
+            setToggle(true)
+        }else{
+            button.classList.remove('search-button-active')
+            setToggle(false)
+        }
+    }
     return (
         <>
           <div className="bg-image-3">
@@ -59,13 +70,22 @@ export default function Tickets() {
                                     </div>
                               </div>
                           </div>
-                          <div className="search-button" role="button">
+                          <div className="search-button" role="button" onClick={searchFlights}>
                               <button class="btn4">Search Flights</button>
                               <FaArrowRight/>
                           </div>
                         </div>
                   </div>
                   
+              </div>
+          </div>
+          <div className="container">
+              <div className="ticket-section">
+                <div className="tickets-wrapper">
+                    <Ticket />
+                    <Ticket />
+                    <Ticket />
+                </div>
               </div>
           </div>
         </>
