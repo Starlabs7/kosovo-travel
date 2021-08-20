@@ -50,10 +50,10 @@ export default function header() {
                                     <Link className="routerlink" to='/tickets'>
                                         <li>Tickets</li>
                                     </Link>
-                                    <Link className="routerlink">
+                                    <Link className="routerlink" to="/places-to-go">
                                         <li>Places to go</li>
                                     </Link>
-                                    <Link className="routerlink">
+                                    <Link className="routerlink" to="/things-to-do">
                                     <li>Things to do</li>
                                     </Link>
                                     <Link className="routerlink" to='/plan-your-trip'>

@@ -111,30 +111,35 @@ select#passangers , select#travel-class {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    top:90%;
+    left: 80%;
+}
+.btn4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     cursor: pointer;
     background-color: #101010;
     padding: 15px;
     width: 14vw;
     height: 8vh;
     border-radius: 10px;
-    top:90%;
-    left: 80%;
-}
-
-.search-button button{
-    background-color: transparent;
+    transition: all 200ms ease-in-out;
     color: white;
     border: none;
     font-size: 15px;
-    cursor: pointer;
+}
+.search-button:hover{
+    background-color: rgb(49, 50, 51);
 }
 .search-button svg{
     color: white;
     transition: transform 500ms linear;
 }
-.search-button-active svg{
+.search-button-active  svg{
     transform: rotate(90deg);
 }
+
 .ticket-section{
     display: flex;
     flex-direction: column;
